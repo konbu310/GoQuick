@@ -41,7 +41,7 @@ end
 #  }
 #  data.to_json
 #end
-  
+
 post '/_register' do
   getcookie
   shortname = params['shortname']
